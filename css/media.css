@@ -1,0 +1,98 @@
+@media(max-width: 1180px) {
+    .trace {
+        height: 22vw;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        justify-content: center;
+    }
+
+    .history {
+        position: fixed;
+        width: calc(100% - 40px);
+        height: calc(100vh - 16px);
+        left: 20px;
+        bottom: 8px;
+        transform: translateY(110%);
+        z-index: 20;
+
+    }
+
+    .control-pannel {
+        flex-grow: 1;
+        max-width: 500px;
+    }
+
+    .historyHamburger {
+        bottom: 10px;
+        position: absolute;
+        font-size: 20px;
+        right: 10px;
+        color: #d9d9d9;
+        width: 40px;
+        background-color: #000000;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 23;
+    }
+
+    .moveHistory {
+        transform: translateY(0);
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    body {
+        padding: 20px 8px;
+    }
+
+    .debt p,
+    .debt button,
+    .debt__span,
+    a {
+        font-size: 10px !important;
+    }
+
+    .total__account,
+    .total__bat,
+    .total__bat_span,
+    .total__account_span {
+        font-size: 15px !important;
+    }
+
+    .bat__minus,
+    .bat__plus,
+    .name__control button,
+    .name__control button {
+        font-size: 24px !important;
+    }
+
+    .history {
+        width: calc(100% - 16px);
+        left: 8px;
+        bottom: 8px;
+
+    }
+}
+
+@media (max-width: 375px) {
+    li {
+        padding-bottom: 32px;
+    }
+
+    .history {
+        font-size: 10px !important;
+    }
+
+    .date {
+        font-size: 8px;
+    }
+}

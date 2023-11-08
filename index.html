@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grizzlirace</title>
+    <link rel="stylesheet" href="./css/zero.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <button class="historyHamburger"><i class="fa-solid fa-clock-rotate-left"></i></button>
+    <audio class="winAudio" src="./win.mp3"></audio>
+    <audio class="lostAudio" src="./lost.mp3"></audio>
+    <h1>grizzliBot: race</h1>
+    <div class="trace">
+        <img class="trace__number_1" src="./img/1.svg" alt="">
+        <img class="trace__number_2" src="./img/2.svg" alt="">
+        <div class="grizzli1">
+            <img src="./img/grizzli1.svg" alt="">
+        </div>
+        <div class="grizzli2">
+            <img src="./img/grizzli2.svg" alt="">
+        </div>
+        <img class="finish" src="./img/finish.svg" alt="">
+        <div class="trace__hr"></div>
+        <div class="trace__vr"></div>
+    </div>
+    <div class="container">
+        <div class="control-pannel">
+            <div class="debt">
+                <p>dette de miel: <span class="debt__span">0</span> 🍯</p>
+                <button>Retourner</button>
+            </div>
+            <a href="https://ews2022.github.io/grizzliclock/" class="control-pannel__getHoney" target="_blank">Ajouter
+                le miel</a>
+            <p class="total__account">Тotal de miel: <span class="total__account_span">0</span> 🍯</p>
+            <p class="total__bat">Miel que tu remets: <span class="total__bat_span">0</span> 🍯</p>
+            <div class="bat__control">
+                <button class="bat__minus">-1</button>
+                <button class="bat__plus">+1</button>
+                <button class="bat__all">Remettre tout le miel</button>
+            </div>
+            <p>Qui gagnera le pari ?</p>
+            <div class="name__control">
+                <button class="johnny">Johnny</button>
+                <button class="nathan">Nathan</button>
+                <button class="start">Start 🏁</button>
+            </div>
+        </div>
+        <ul class="history"></ul>
+    </div>
+    <div class="wrapper">
+        <div class="return-form">
+            <h2>Combien voulez-vous retourner?</h2>
+            <input min="0" type="number">
+            <button>Retourner</button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/1182fbd698.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
