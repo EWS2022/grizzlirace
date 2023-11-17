@@ -27,7 +27,7 @@
 
     .historyHamburger {
         bottom: 10px;
-        position: absolute;
+        position: fixed;
         font-size: 20px;
         right: 10px;
         color: #d9d9d9;
@@ -96,4 +96,8 @@
     .date {
         font-size: 8px;
     }
+}
+
+@media(orientation: landscape) {
+
 }

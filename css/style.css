@@ -5,6 +5,7 @@ body {
     background-color: #323232;
     font-family: 'Prosto One', cursive;
     overflow: hidden;
+    overflow-y: scroll;
 }
 
 .historyHamburger {
